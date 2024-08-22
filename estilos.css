@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.Componente {
+    background-color: #CDB6F3;
+    width: 100vw; /*Viewport Width*/
+    height: 100vh; /*Viewport Height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    background-color: #fff;
+    padding: 32px 32px;
+    border-radius: 32px;
+    box-shadow: 0px 0px 20px hsla(0, 0%, 0%, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.nombre {
+    color: #A595FF;
+    font-weight: regular;
+    font-size: 64px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: hsla(258, 82%, 78%, 0.54);
+    padding: 12px 18px;
+    border-radius: 21px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.boton:haver {
+    background-color: #1ef6e0;
+    color:  hsla(258, 82%, 78%, 0.54);
+}
